@@ -224,7 +224,7 @@
                 <p style="text-indent:2em;">
                 在中游阶段，传统黑产依靠在平台上大量传播恶意内容来扩大影响范围，以让更多的潜在受害者关注到恶意信息。 然而，这种方式产生的内容非常同质化，往往非常容易受到平台的限制，同时，对潜在目标的触达存在一定的偏移。</p>
                 <p style="text-indent:2em;">
-                因此，黑产选择在与广告目标契合的话题下进行精准投放以吸引到更多的关注。为了达到这个目的，参考图2的中游部分，黑灰产可以首先根据LLM决定目标主题，其格式为：
+                因此，黑产选择在与广告目标契合的话题下进行精准投放以吸引到更多的关注。为了达到这个目的，参考图2的中游部分，黑灰产可以首先根据LLM决定目标主题，其格式为：<br>
                 <img src="static/images/upstream-5.png" alt="some_text"></p>
                 
                 <p style="text-indent:2em;">
@@ -310,7 +310,9 @@
               </p>
               <p style="text-indent:2em;">
                 这些账号通常具有相对明显的特征，例如他们发布的IP地址/设备会存在聚集。在中游，黑产通常会尝试将引流目标的内容夹杂到正常的内容中，从而实现引流的目的。在这一过程中，通过对账号所发布的内容进行主题一致性审核，可以有效的过滤隐藏引流内容的文章。这一过程可以由LLMs完成。<br>
-                <img src="static/images/defense-2.png" alt="some_text">
+                <div style="text-align:center">
+                    <img src="static/images/defense-2.png" alt="some_text">
+                    </div>
                   </p>
             </div>
 
@@ -324,7 +326,9 @@
                   </p>
                   <p style="text-indent:2em;">
                     有时这可能不太有效，因为模型需要了解用户的具体信息，而将所有用户信息上传到模型中存在泄漏的风险，所以对于陌生电话描述内容是否属实不能有一个准确的判断。一个合适的替代方案是让模型首先假设对方提出的任何情况的否定。只有在这种情况下没有出现任何漏洞之后，才允许接触用户。例如，可以给出以下指令：<br>
-                    <img src="static/images/defense-3.png" alt="some_text">
+                    <div style="text-align:center">
+                    <img src="static/images/defense-4.png" alt="some_text">
+                    </div>
                       </p>
                 </div>
 
